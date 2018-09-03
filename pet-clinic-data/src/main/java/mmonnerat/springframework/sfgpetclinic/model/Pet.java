@@ -1,8 +1,19 @@
 package mmonnerat.springframework.sfgpetclinic.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet implements Serializable {
+
+    private Long ig;
+
+    public Long getIg() {
+        return ig;
+    }
+
+    public void setIg(Long ig) {
+        this.ig = ig;
+    }
 
     private LocalDate birthday;
     private PetType type;

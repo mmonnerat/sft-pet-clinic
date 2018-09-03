@@ -1,6 +1,20 @@
 package mmonnerat.springframework.sfgpetclinic.model;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
+
+
+    private Long ig;
+
+    public Long getIg() {
+        return ig;
+    }
+
+    public void setIg(Long ig) {
+        this.ig = ig;
+    }
+
     public String getFirstName() {
         return firstName;
     }
