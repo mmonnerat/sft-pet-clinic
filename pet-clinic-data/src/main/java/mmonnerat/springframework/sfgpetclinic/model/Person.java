@@ -5,14 +5,14 @@ import java.io.Serializable;
 public class Person implements Serializable {
 
 
-    private Long ig;
+    private Long id;
 
-    public Long getIg() {
-        return ig;
+    public Long getId() {
+        return id;
     }
 
-    public void setIg(Long ig) {
-        this.ig = ig;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFirstName() {

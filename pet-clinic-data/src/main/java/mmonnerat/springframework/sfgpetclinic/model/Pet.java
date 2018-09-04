@@ -5,14 +5,14 @@ import java.time.LocalDate;
 
 public class Pet implements Serializable {
 
-    private Long ig;
+    private Long id;
 
-    public Long getIg() {
-        return ig;
+    public Long getId() {
+        return id;
     }
 
-    public void setIg(Long ig) {
-        this.ig = ig;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     private LocalDate birthday;
