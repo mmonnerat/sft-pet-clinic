@@ -1,13 +1,11 @@
 package mmonnerat.springframework.sfgpetclinic.services.map;
 
 import mmonnerat.springframework.sfgpetclinic.model.Pet;
-import mmonnerat.springframework.sfgpetclinic.services.CrudService;
+import mmonnerat.springframework.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetService extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
-
-
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
