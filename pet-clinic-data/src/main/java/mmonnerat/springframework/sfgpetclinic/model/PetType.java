@@ -2,17 +2,7 @@ package mmonnerat.springframework.sfgpetclinic.model;
 
 import java.io.Serializable;
 
-public class PetType implements Serializable {
-
-    private Long ig;
-
-    public Long getIg() {
-        return ig;
-    }
-
-    public void setIg(Long ig) {
-        this.ig = ig;
-    }
+public class PetType extends BaseEntity implements Serializable {
 
     private String name;
 
